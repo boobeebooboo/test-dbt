@@ -1,1 +1,1 @@
-select * from `modern-data-stack-demo.demo_dataset.covid_data` where new_recovered > new_confirmed
+select * from `public.epidemiology` where new_recovered > new_confirmed
